@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path
+        name="images"
+        path="Android/data/com.example.package.name/files/Pictures/OriPicture/" />
+    <external-path
+        name="images"
+        path="Android/data/com.example.package.name/files/Pictures/OriPicture/" />
+    <external-files-path
+        name="images"
+        path="files/Pictures/OriPicture" />
+    <root-path
+        name="images"
+        path="" />
+    <root-path
+        name="images"
+        path="" />
+
+
+    <!--&lt;!&ndash; 对应/data/data//files目录 &ndash;&gt;-->
+    <!--<files-path name="file_dir" path="" />-->
+    <!--&lt;!&ndash; 对应/data/data//cache目录 &ndash;&gt;-->
+    <!--<cache-path name="chche_dir" path="" />-->
+    <!--&lt;!&ndash; 对应Environment.getExternalStorageDirectory()目录 &ndash;&gt;-->
+    <!--<external-path name="external_storage_directory" path="" />-->
+    <!--&lt;!&ndash; 对应Context.getExternalFilesDir()目录 &ndash;&gt;-->
+    <!--<external-files-path name="camera_has_sdcard" path="" />-->
+    <!--&lt;!&ndash; 对应Context.getExternalCacheDir()目录 &ndash;&gt;-->
+    <!--<external-cache-path name="external_cache_dir" path="" />-->
+
+
+    <!--&lt;!&ndash;app内更新版本&ndash;&gt;-->
+
+    <!--&lt;!&ndash;对应getFilesDir()。&ndash;&gt;-->
+    <!--<files-path name="name" path="path" />-->
+    <!--&lt;!&ndash;对应getCacheDir()。&ndash;&gt;-->
+    <!--<cache-path name="name" path="path" />-->
+    <!--&lt;!&ndash;对应Environment.getExternalStorageDirectory()。&ndash;&gt;-->
+    <!--<external-path name="name" path="path" />-->
+    <!--&lt;!&ndash;对应getExternalFilesDir()。&ndash;&gt;-->
+    <!--<external-files-path name="name" path="path" />-->
+    <!--&lt;!&ndash;对应getExternalCacheDir()。&ndash;&gt;-->
+    <!--<external-cache-path name="cache_download" path="download" />-->
+</paths>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--3个层的顺序即为显示时的叠加顺序-->
+    <!--背景色-->
+    <!--<item>-->
+        <!--<clip>-->
+            <!--<shape>-->
+                <!--<corners android:radius="10dip"-->
+                     <!--/>-->
+                <!--<gradient-->
+                    <!--android:angle="0"-->
+                    <!--android:startColor="#29B3FE"-->
+                    <!--android:centerColor="@color/btn_blue_0"-->
+                    <!--android:endColor=""-->
+                    <!--android:type="linear"/>-->
+            <!--</shape>-->
+        <!--</clip>-->
+    <!--</item>-->
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dp"/>
+            <gradient
+                android:startColor="#DBDBDB"
+                android:centerColor="#D3D3D3"
+                android:endColor="#CDCDC1" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <scale
+            android:drawable="@drawable/progressbar_back_pg"
+            android:scaleWidth="100%"/>
+    </item>
+
+</layer-list>
